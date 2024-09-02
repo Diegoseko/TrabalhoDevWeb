@@ -1,0 +1,134 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-weight:bolder;
+}
+
+body {
+    background-color: rgb(212, 216, 216);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 70vh;
+    
+}
+
+
+
+.header {
+    list-style-type: none;
+    width: 100%;
+    height: 20px;
+    margin: 0;
+    padding: 10px;
+    display: block;
+    background-color: rgb(113, 141, 141);
+
+   
+    
+}
+
+.i-header {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.oseko {
+    float: right;
+    display: table;
+    height: 100%;
+    position: relative;
+    bottom: 15px;
+}
+
+.container-nome h1 {
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+/* Codigo do navegador, cabeçalho */
+
+.navg li{
+    float:left;
+    height: 100%;
+}
+
+.navg li a{
+    display: table-cell;
+    color: black;
+    padding: 0px 20px;
+    float: left;
+    vertical-align: middle;
+    height: 100%;
+    
+}
+
+.navg li a:hover{
+    background-color: rgb(45, 105, 105);
+    color: rgb(0, 0, 0);
+   
+}
+/* CSS Geral para as divs que compoem o site */
+
+.section {
+    padding: 30px;
+    background-color: #fff;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    height: auto;
+}
+
+/* Ajustes das divs separadamente */
+
+#sm img {
+    height: 300px;
+    width: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+.formulario {
+   display: flex;
+   flex-direction: column;
+
+}
+
+#nome {
+    width: 300px;
+    margin: 10px;
+}
+
+#email {
+    width: 500px;
+    margin: 10px;
+}
+
+
+#mensagem {
+    margin: 10px;
+    width: 80%;
+    height: 100px;
+    text-align: left;
+}
+
+/* Pequena animação adicionada ao botão*/
+
+
+#botenviar {
+    margin: 10px;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#botenviar:hover{
+    background-color: rgb(115, 121, 109);
+    color: white;
+}
+
+
